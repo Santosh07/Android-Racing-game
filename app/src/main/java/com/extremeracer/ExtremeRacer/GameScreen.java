@@ -42,7 +42,7 @@ public class GameScreen extends Screen {
         }
 
         if (state == GameState.Running) {
-            updateRunning(touchEvents, deltaTime);
+            //updateRunning(touchEvents, deltaTime);
         }
 
         if (state == GameState.Paused) {
